@@ -1,0 +1,15 @@
+{
+  "name": "Philadelphia Marathon 2026 Block",
+  "short_name": "Philly2026",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4ecd9",
+  "theme_color": "#06275a",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

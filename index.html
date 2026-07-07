@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#06275a">
+  <title>Philadelphia Marathon 2026 Block</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <img class="logo" src="images/logo.png" alt="Philadelphia Marathon 2026 Block">
+      <div class="race">Race Day: Sunday, November 22, 2026</div>
+      <div class="countdown" id="countdown"></div>
+    </header>
+
+    <section class="phase-bar">
+      <div class="phase ramp">Ramp Up<br>Weeks 1–2</div>
+      <div class="phase block">Marathon Block<br>Weeks 3–13</div>
+      <div class="phase taper">Taper<br>Week 14</div>
+      <div class="phase raceweek">Race Week<br>Week 15</div>
+    </section>
+
+    <section class="dashboard">
+      <div class="dash-card"><b id="currentWeek">Week 1</b><span>Current Selection</span></div>
+      <div class="dash-card"><b id="completedCount">0/105</b><span>Workouts Complete</span></div>
+      <div class="dash-card"><b id="progressPercent">0%</b><span>Progress</span></div>
+    </section>
+
+    <section id="weekPicker" class="week-picker"></section>
+    <section id="weekView" class="week-view"></section>
+
+    <nav class="nav">
+      <button id="prevBtn">← Previous Week</button>
+      <button id="todayBtn">Today</button>
+      <button id="nextBtn">Next Week →</button>
+    </nav>
+
+    <footer class="legend">
+      EZ = Easy <span>★</span> T = Threshold <span>★</span> WRKT = Workout <span>★</span> LSD = Long Slow Distance <span>★</span> KB = Kettlebell Strength
+    </footer>
+  </main>
+
+  <script src="js/workouts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
